@@ -38,7 +38,7 @@ define('FS_DEMO', FALSE);
  * Host: la ip del servidor donde está memcached.
  * port: el puerto en el que se ejecuta memcached.
  * prefix: prefijo para las claves, por si tienes varias instancias de
- * FacturaScripts conectadas al mismo servidor memcache.
+ * la aplicacion conectadas al mismo servidor memcache.
  */
 
 define('FS_CACHE_HOST', 'localhost');
