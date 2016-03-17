@@ -120,7 +120,8 @@
                               {elseif="file_exists('tmp/'.FS_TMP_NAME.'logo.jpg')"}
                               <img src="tmp/{#FS_TMP_NAME#}logo.jpg" alt="{$fsc->empresa->nombre}"/>
                               {else}
-                              <img src="view/img/logo.png" alt="logo"/>
+                              <!--<img src="view/img/logo.png" alt="logo"/>-->
+			      <span class="glyphicon glyphicon-qrcode" aria-hidden="true"></span>
                               {/if}
                            </div>
                         </div>
