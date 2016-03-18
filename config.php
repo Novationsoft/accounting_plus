@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
  * Configuración de la base de datos.
  * type: postgresql o mysql (mysql está en fase experimental).
@@ -12,7 +12,7 @@
 define('FS_DB_TYPE', 'MYSQL'); /// MYSQL o POSTGRESQL
 define('FS_DB_HOST', 'localhost');
 define('FS_DB_PORT', '3306'); /// MYSQL -> 3306, POSTGRESQL -> 5432
-define('FS_DB_NAME', 'facturascripts');
+define('FS_DB_NAME', 'accounting');
 define('FS_DB_USER', 'root'); /// MYSQL -> root, POSTGRESQL -> postgres
 define('FS_DB_PASS', 'lol12345');
 

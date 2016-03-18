@@ -25,7 +25,7 @@ require_once 'base/fs_default_items.php';
 /**
  * Esta función sirve para cargar modelos, y sobre todo, para cargarlos
  * desde la carpeta plugins, así se puede personalizar aún más el comportamiento
- * de la Aplicacion.
+ * de FacturaScripts.
  */
 function require_model($name)
 {
